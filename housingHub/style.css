@@ -78,7 +78,7 @@ nav {
   }
   
   /* Media query for smaller screens */
-  @media screen and (max-width: 360px) and (min-resolution: 300dpi) {
+  @media screen and (max-width: 600px) {
     nav ul {
       flex-direction: column;
       height: auto;
@@ -95,7 +95,7 @@ nav {
     }
     
     /* Additional media query to display menu as block when zooming in */
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 400px) {
       nav li {
         margin: 10px 0;
       }
