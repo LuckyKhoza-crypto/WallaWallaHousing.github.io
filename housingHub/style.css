@@ -93,19 +93,18 @@
     #whitmanProp {
         display: block;
         font-size: medium;
-        /* position: relative; */
         font-family:Arial, Helvetica, sans-serif;
         margin-top: 5%;
-        text-align: left;
-        width: 70%;
+        margin-left: 20%;
+        width: 60%;
         line-height: 1.5em;
-
     }
     #whitMap {
       display: block;  
-      float: left;
-        /* margin: 10px; */
-        
+      width: 70%;
+      height: 480px;
+      margin-bottom: 10%;
+      margin-left: 15%;
     }
     #home {
         display: block;
@@ -130,23 +129,24 @@
 
     #welcomeIm {
         display: block;
-        width: 30%;
+        margin-top: 4%;
+        width: 50%;
         float: left;
         margin: 0.5%;
     }
 
     #owners {
         float: left;
-        margin: 15px;
-         font-family:Arial, Helvetica, sans-serif;
-         font-size: larger;
-         font-weight: bold;
-         text-align: left;
+        margin: 5%;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        text-align: left;
     }
 
     #ownerName {
-        font-size: large;
-        margin: 10px;
+        font-size: 0.7em;
+        margin: 5%;
     }
 
     #ownerInfo {
@@ -160,12 +160,17 @@
     }
 
     #locMap {
-        margin-top: 70px;
-        padding: 75px;
+        margin-top: 5%;
+        padding: 5%;
+        margin-left: 30%;
+        margin-right: 2.5%;
+        text-align: center;
     }
 
     #propMap {
-        padding: 10px;
+        width: 100%;
+        height: 560px;
+        /* margin-left: 10%; */
     }
     header{
         background-color: black;
@@ -186,11 +191,13 @@
         
     }
     #resourceList {
-        margin: 10px;
+        margin: 5%;
+        /* background-color: yellow; */
+        padding: 0.3%;
     }
     #resourceList li {
         list-style-type:disc;
-        text-align: left;
+        /* text-align: left; */
         margin: 10px;
     }
     
@@ -213,4 +220,5 @@
         font-size: small;
         font-weight: 200;
         padding: 0.5%;
+        size: 0.1em;
     }
