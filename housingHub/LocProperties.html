@@ -4,115 +4,241 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Welcome home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <header>
-        <section id="container">
-            <nav>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="whitProperties.html">Whitman College Properties</a></li>
-                  <li><a href="LocProperties.html">None Whitman Local Properties</a></li>
-                  <li><a href="resources.html">More Resources</a></li>
-                </ul>
-              </nav>
-        </section>
-    </header>
-    <body>
-        <section id="owners">
-            <h1>Property Owners</h1>
-            <div id="ownerName">
-                <h2>Barbra Whatley</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:"></a> Currently Unavailable</li>
-                        <li>Website: <a href="http://www.exemplarrealestate.com/residential-rentals.html" target="_blank" >Website</a> with properties</li>
-                        <li>Phone Number: <a href="tel:509-522-7080">509-522-7080</a> </li>
-                        <!-- <li>**coming up is a short description/review about the landlord and Property.**</li> -->
-                    </ul>
-                </h3>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Off-Campus Housing</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <header>
+    <nav class="bg-blue-900 p-2 text-white">
+      <ul
+        class="container mx-auto flex-row sm:flex sm:space-x-6 justify-center overflow-auto items-center"
+      >
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="index.html">Home</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="whitProperties.html">Whitman College Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="LocProperties.html">Non-Whitman Local Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="resources.html">More Resources</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body class="relative min-h-screen">
+    <section class="container mx-auto">
+      <h1 class="text-center text-4xl font-bold mt-5">Property Owners</h1>
 
-            </div>
+      <div class="m-2 mt-8 grid grid-cols-12 gap-3">
+        <!-- Barbra Whatley -->
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Barbra Whatley</h2>
+          <ul>
+            <li>Email: Currently Unavailable</li>
+            <li>
+              Website:
+              <a
+                class="text-blue-500 font-bold"
+                href="http://www.exemplarrealestate.com/residential-rentals.html"
+                target="_blank"
+                >Website with properties</a
+              >
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold" href="tel:509-522-7080"
+                >509-522-7080</a
+              >
+            </li>
+          </ul>
+        </div>
 
-            <div id="ownerName">
-                <h2>Coldwell Banker</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:rent@wallawallacb.com">rent@wallawallacb.com</a></li>
-                        <li>Website: <a href="https://coldwellbankerwallawalla.com/washington-properties/ "target="_blank" >Website</a> with properties</li>
-                        <li>Phone Number: <a href="tel:509-525-0820">509-525-0820</a> </li>
-                    </ul>
-                </h3>
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Coldwell Banker</h2>
+          <ul>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:rent@wallawallacb.com"
+                >rent@wallawallacb.com</a
+              >
+            </li>
+            <li>
+              Website:
+              <a
+                class="text-blue-500 font-bold"
+                href="https://coldwellbankerwallawalla.com/washington-properties/"
+                target="_blank"
+                >Website</a
+              >
+              with properties
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold" href="tel:509-525-0820"
+                >509-525-0820</a
+              >
+            </li>
+          </ul>
+        </div>
 
-            </div>
+        <!-- Andrew Reed -->
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Andrew Reed</h2>
+          <ul>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:rent@wallawallacb.com"
+                >rent@wallawallacb.com</a
+              >
+            </li>
+            <li>
+              Website:
+              <a
+                class="text-blue-500 font-bold"
+                href="https://windermerewallawalla.com/"
+                target="_blank"
+                >Website</a
+              >
+              with properties
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold" href="tel:509-525-2151"
+                >509-525-2151</a
+              >
+            </li>
+          </ul>
+        </div>
 
-            <div id="ownerName">
-                <h2>Andrew Reed</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:rent@wallawallacb.com">rent@wallawallacb.com</a></li>
-                        <li>Website: <a href="https://windermerewallawalla.com/ "target="_blank" >Website</a> with properties</li>
-                        <li>Phone Number: <a href="tel:509-525-2151">509-525-2151</a> </li>
-                    </ul>
-                </h3>
+        <!-- Ryan McKown -->
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Ryan McKown</h2>
+          <ul>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:rmckown@cwscapital.com"
+                >rmckown@cwscapital.com</a
+              >
+            </li>
+            <li>
+              Website:
+              <a class="text-blue-500 font-bold">N/A</a>
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold" href="tel:509-301-5648"
+                >509-301-5648</a
+              >
+            </li>
+          </ul>
+        </div>
 
-            </div>
+        <!-- Choice Property Management -->
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Choice Property Management</h2>
+          <ul>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:Codykellison@gmail.com"
+                >Codykellison@gmail.com</a
+              >
+            </li>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:AndrewCPMoffice@gmail.com"
+                >AndrewCPMoffice@gmail.com</a
+              >
+            </li>
+            <li>
+              Website:
+              <a
+                class="text-blue-500 font-bold"
+                href="https://www.wallaliving.com/"
+                target="_blank"
+                >Website</a
+              >
+              with properties
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold" href="tel:509-524-8302"
+                >509-524-8302</a
+              >
+            </li>
+          </ul>
+        </div>
 
-            <div id="ownerName">
-                <h2>Ryan McKown</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:rmckown@cwscapital.com">rmckown@cwscapital.com</a></li>
-                        <li>Website: <a href="#"target="_blank" ></a> N/A</li>
-                        <li>Phone Number: <a href="tel:509-301-5648">509-301-5648</a> </li>
-                    </ul>
-                </h3>
+        <!-- Roy Buttice -->
+        <div class="col-span-12 sm:col-span-4 p-2 bg-gray-300 rounded-xl prose">
+          <h2 class="text-center">Roy Buttice</h2>
+          <ul>
+            <li>
+              Email:
+              <a
+                class="text-blue-500 font-bold"
+                href="mailto:Buttcon1@cwscapital.com"
+                >Buttcon1@cwscapital.com</a
+              >
+            </li>
+            <li>
+              Website:
+              <a class="text-blue-500 font-bold">N/A</a>
+            </li>
+            <li>
+              Phone Number:
+              <a class="text-blue-500 font-bold">N/A</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="grid grid-cols-12 mx-auto mt-12 mb-12 container">
+        <div class="col-span-12 bg-black flex justify-center">
+          <iframe
+            class="w-full h-96"
+            id="whitMap"
+            src="https://www.google.com/maps/d/embed?mid=1GOUh1vuN54Cy6ZaggvRyPVVw-GnxcHWL&ehbc=2E312F"
+          ></iframe>
+        </div>
+      </div>
+    </section>
 
-            </div>
-
-            <div id="ownerName">
-                <h2>Choice Property Management</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:Codykellison@gmail.com">Codykellison@gmail.com</a></li>
-                        <li>Email: <a href="mailto: AndrewCPMoffice@gmail.com"> AndrewCPMoffice@gmail.com</a></li>
-                        <li>Website: <a href="https://www.wallaliving.com/ "target="_blank" >Website</a> with properties</li>
-                        <li>Phone Number: <a href="tel:509-524-8302">509-524-8302</a> </li>
-                    </ul>
-                </h3>
-
-            </div>
-
-            <div id="ownerName">
-                <h2>Roy Buttice</h2>
-                <h3 id="ownerInfo">
-                    <ul>
-                        <li>Email: <a href="mailto:Buttcon1@cwscapital.com">Buttcon1@cwscapital.com</a></li>
-                        <li>Website: <a href="#"target="_blank" ></a> N/A</li>
-                        <li>Phone Number: <a href="#">N/A</a> </li>
-                    </ul>
-                </h3>
-
-            </div>
-        </section>
-        <section id="locMap"> 
-            <div>
-                <iframe id="propMap" src="https://www.google.com/maps/d/embed?mid=1GOUh1vuN54Cy6ZaggvRyPVVw-GnxcHWL&ehbc=2E312F" width="640" height="480"></iframe>
-            </div>
-        </section>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-        <footer id="footer">
-            Contributors: Alice, Eric, and Lucky. We are not responsible for any interactions between you and the landlords.
-        </footer>
-    </body>
+    <div class="relative pb-16 mt-2">
+      <footer
+        class="absolute bottom-0 w-full bg-blue-900 p-2 flex justify-center text-sm"
+      >
+        <p class="prose text-white text-center">
+          Contributors: Alice, Eric, and Lucky. We are not responsible for any
+          interactions between you and the landlords.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,56 +1,97 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Welcome home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <header>
-        <section id="container">
-            <nav>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="whitProperties.html">Whitman College Properties</a></li>
-                  <li><a href="LocProperties.html">None Whitman Local Properties</a></li>
-                  <li><a href="resources.html">More Resources</a></li>
-                </ul>
-              </nav>
-        </section>
-    </header>
-    <body>
-        <section id="whitmanProp">
-            <div>
-                    <p>
-                        All Whitman College properties can be found online using the
-                        this <a href="https://www.whitman.edu/business-office/rental-properties/student-rental-properties">link</a>. Whitman properties
-                        range from studio apartments and 1 bedrooms to 7 bedrooms.
-                    </p>
-                <h4>
-                    These houses are available for the 2023-2024 School Year: Rent includes yard care and water/sewer/garbage. Rent is based
-                     on one person per bedroom. Rent will increase by $250 per additional person beyond the number of bedrooms. 
-                     To walk through these houses contact the current tenant attached to the house. For all other questions, or 
-                     if you're wanting to sign a lease, contact Leah at 509-301-8866 (text or call) or email Leah at whitmanrentals@gmail.com
-                </h4>
-            </div>
-        </section>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Off-Campus Housing</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <header>
+    <nav class="bg-blue-900 p-2 text-white">
+      <ul
+        class="container mx-auto flex-row sm:flex sm:space-x-6 justify-center overflow-auto items-center"
+      >
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="index.html">Home</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="whitProperties.html">Whitman College Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="LocProperties.html">Non-Whitman Local Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="resources.html">More Resources</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body class="relative min-h-screen">
+    <section class="prose container mx-auto p-2">
+      <div>
+        <p class="text-center">
+          All Whitman College properties can be found online using the this
+          <a
+            class="text-blue-500 font-bold"
+            href="https://www.whitman.edu/business-office/rental-properties/student-rental-properties"
+            >link</a
+          >. Whitman properties range from studio apartments and 1 bedrooms to 7
+          bedrooms.
+        </p>
+        <p class="text-center">
+          These houses are available for the 2023-2024 School Year: Rent
+          includes yard care and water/sewer/garbage. Rent is based on one
+          person per bedroom. Rent will increase by $250 per additional person
+          beyond the number of bedrooms. To walk through these houses contact
+          the current tenant attached to the house. For all other questions, or
+          if you're wanting to sign a lease, contact Tami at 509-527-5745 (text
+          or call) or email at
+          <a
+            class="text-blue-500 font-bold"
+            href="mailto:whitmanrentals@gmail.com"
+            >higginbt@whitman.edu</a
+          >
+        </p>
+      </div>
+    </section>
 
-        <div>
-            <iframe id="whitMap" src="https://www.google.com/maps/d/embed?mid=1xdiKFgujrJVeOqifLlOn39IsMabYFbVB&ehbc=2E312F"></iframe>
-        </div>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
-    <footer id="footer">
-        Contributors: Alice, Eric, and Lucky. We are not responsible for any interactions between you and landlords.
+    <div class="grid grid-cols-12 mx-auto container">
+      <div class="col-span-12 bg-black flex justify-center">
+        <iframe
+          class="w-full h-96"
+          id="whitMap"
+          src="https://www.google.com/maps/d/embed?mid=1xdiKFgujrJVeOqifLlOn39IsMabYFbVB&ehbc=2E312F"
+        ></iframe>
+      </div>
+    </div>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script src="" async defer></script>
+  </body>
+  <div class="relative pb-16 mt-2">
+    <footer
+      class="absolute bottom-0 w-full bg-blue-900 p-2 flex justify-center text-sm"
+    >
+      <p class="prose text-white text-center">
+        Contributors: Alice, Eric, and Lucky. We are not responsible for any
+        interactions between you and the landlords.
+      </p>
     </footer>
+  </div>
 </html>

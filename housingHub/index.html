@@ -1,52 +1,75 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Welcome home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <header>
-        <section id="container">
-            <nav>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="whitProperties.html">Whitman College Properties</a></li>
-                  <li><a href="LocProperties.html">None Whitman Local Properties</a></li>
-                  <li><a href="resources.html">More Resources</a></li>
-                </ul>
-              </nav>
-        </section>
-    </header>
-    <body>
-        <section id="home">
-            <div >
-                <img id="welcomeIm"src="istockphoto-1278509660-612x612.jpg" alt="house">
-            </div>
-            <div>
-                <p id="welcomeText">
-                    The goal of our project was to create a way for all students to have easy, equal, and affordable access to off campus
-                    housing and off campus housing information. We recognize that around the country, there is an inequality for housing
-                    opportunity, whether it's in the form of affordable housing, location of housing, or even knowing the state's laws 
-                    for tenants and real estate agents. We had a goal of making all that information clear and concise, and in one easy
-                    location for all students who are looking for off campus housing, or simply want to learn more about housing laws
-                    and regulations when it comes to renting and buying houses.
-                </p>
-            </div>
-        </section>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
-    <footer id="footer">
-        Contributors: Alice, Eric, and Lucky. We are not responsible for any  interactions between you and the landlords.
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Off-Campus Housing</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <header>
+    <nav class="bg-blue-900 p-2 text-white">
+      <ul
+        class="container mx-auto flex-row sm:flex sm:space-x-6 justify-center overflow-auto items-center"
+      >
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="index.html">Home</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="whitProperties.html">Whitman College Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="LocProperties.html">Non-Whitman Local Properties</a>
+        </li>
+        <li
+          class="hover:text-yellow-400 hover:border-b hover:border-yellow-400 text-center text-xl sm:text-2xl p-1 rounded"
+        >
+          <a href="resources.html">More Resources</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body class="relative min-h-screen overflow-auto">
+    <section
+      class="container mt-10 mx-auto grid grid-cols-12 gap-4 sm:gap-12 p-4"
+    >
+      <div class="col-span-12 lg:col-span-6 flex justify-center">
+        <img
+          class="lg:object-cover object-center w-full rounded shadow-2xl"
+          id="welcomeIm"
+          src="istockphoto-1278509660-612x612.jpg"
+          alt="house"
+        />
+      </div>
+      <div class="col-span-12 lg:col-span-6 flex items-center">
+        <p class="tracking-wide font-normal sm:leading-loose sm:text-xl prose">
+          We aim to address housing inequality in Walla Walla by centralizing
+          information on affordable housing, housing location, and tenant and
+          real estate laws. Our goal is to provide clear and concise resources
+          for students seeking off-campus housing or looking to understand
+          housing regulations.
+        </p>
+      </div>
+    </section>
+
+    <script src="" async defer></script>
+  </body>
+  <div class="relative pb-16 mt-2">
+    <footer
+      class="absolute bottom-0 w-full bg-blue-900 p-2 flex justify-center text-sm"
+    >
+      <p class="prose text-white text-center">
+        Contributors: Alice, Eric, and Lucky. We are not responsible for any
+        interactions between you and the landlords.
+      </p>
     </footer>
+  </div>
 </html>
